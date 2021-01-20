@@ -1,0 +1,137 @@
+body{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  background-attachment: fixed;
+  background-position: center;
+  text-align: justify;
+}
+
+
+
+
+input[type=text],input[type=email],input[type=number],input[type=password]{
+  width: 50%;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 20px;
+  border:3px solid orange;
+  border-radius: 10px;
+  color: black;
+  background-color:#FFA07A;
+  box-sizing: border-box;
+  font-family: 'Antic Slab', serif;
+  font-weight:bold ;
+  text-align: justify;
+}
+input[type=text]:hover{
+  background-color: white;
+  border: 3px solid #f6e4bc;
+}
+input[type=email]:hover{
+  background-color: white;
+  border: 3px solid #f6e4bc;
+}
+input[type=password]:hover{
+  background-color: white;
+  border: 3px solid #f6e4bc;
+}
+input[type=number]:hover{
+  background-color: white;
+  border: 3px solid #f6e4bc;
+}
+#search{
+  background-image:url('/—Pngtree—vector search icon_3783210.png');
+  background-repeat:no-repeat;
+  background-position:8px 15px;
+  background-size:20px 20px;
+  font-size: 1rem;
+  padding: 15px 40px;
+  color: black;
+  background-color: white;
+  width: 50%;
+  transition: width 0.03s ease-in-out;
+}
+#search:focus{
+  background-color: #68f2e1;
+  width: 100%;
+  
+}
+#cmnt{
+  resize: none;
+  width: 50%;
+  padding: 30px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  
+}
+#sbt{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  background-color: rgb(66,77,218);
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+#rst{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  background-color: rgb(225,77,77);
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+}
+#s-r{
+  margin-right:50px ;
+  margin-left:28rem ;
+}
+#Certificates{
+  padding: 10px;
+  border: none;
+  font-size: 30px;
+  width: 15%;
+  font-family: 'Kanit', sans-serif;
+  text-align: center;
+  background-color: rgb(122,220,230);
+  padding-left: 10px;
+  margin: 5px 5px 5px;
+  border-radius: 10px;
+}
+
+}
+#sbt:hover{
+  cursor: pointer;
+}
+.fn{
+  color: black;
+  text-align: inherit;
+  text-align: inherit;
+}
+#sb{
+  padding: 20px;
+  text-align: center;
+  color: white;
+  border: none;
+  background-color: rgb(226,44,195);
+  font-size: 20px;
+  font-family: 'Kanit', sans-serif;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  
+}
+#first{
+  margin-left: 22.7rem;
+}
+#main{
+  font-family: 'Balsamiq Sans', cursive;
+  font-weight: bold;
+  font-size: 20px;
+  align-content: center;
+}
