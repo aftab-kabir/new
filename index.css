@@ -52,6 +52,7 @@ input[type=number]:hover{
 }
 .search:before{
   content:"\f002";
+  font-family: FontAwesome;
   }
 #search:focus{
   background-color: #68f2e1;
