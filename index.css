@@ -50,6 +50,9 @@ input[type=number]:hover{
   width: 50%;
   transition: width 0.03s ease-in-out;
 }
+.search:before{
+  content:"\f002";
+  }
 #search:focus{
   background-color: #68f2e1;
   width: 100%;
